@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.text-area {
+    flex: 1;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table.diff {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+table.diff td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+table.diff td.diff_header {
+    background-color: #f8f8f8;
+}
+
+td.diff_header {
+    text-align: right;
+}
+
+.diff_next {
+    background-color: #f8f8f8;
+}
+
+.diff_add {
+    background-color: #e6ffe6;
+}
+
+.diff_chg {
+    background-color: #fff5e6;
+}
+
+.diff_sub {
+    background-color: #ffe6e6;
+} 
